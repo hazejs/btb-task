@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx" ,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "target": "es5", // Adjust target as needed
+    "lib": ["dom", "dom.iterable", "esnext"], // Adjust lib options
+    "allowJs": true, // Allow JavaScript files to be included
+    "skipLibCheck": true, // Avoid errors from type definitions
+    "esModuleInterop": true, // Allow for modern module syntax
+    "allowSyntheticDefaultImports": true, // Allow default imports
+    "strict": true, // Enable strict mode for type safety
+    "module": "commonjs" // Use CommonJS modules (adjust if needed)
+  },
+  "include": ["src"] // Specify source directory
+}
+
